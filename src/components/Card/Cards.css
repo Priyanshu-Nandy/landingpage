@@ -1,0 +1,41 @@
+#bigcard{
+    height: 450px;
+    width: 47vw;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+#smallcard{
+    height: 450px;
+    width: 22vw;
+
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.card{
+    
+    border:0.1px solid rgba(128, 128, 128, 0.333);
+    border-width: thin;
+    backdrop-filter: blur(20px);
+    background-image: linear-gradient(
+        120deg,
+        rgba(255, 255, 255, 0.078),
+        rgba(0,0,0,0.2)
+    );
+    border-radius: 25px;
+}
+.card span{
+    background-color: transparent;
+    display: block;
+}
+.card p{
+    display: block;
+    background-color:transparent;
+}
+.card #post{
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+.card .descpost{
+    font-size: 17px;
+    
+}

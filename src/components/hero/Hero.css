@@ -1,0 +1,80 @@
+.hero{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:2.7vw;
+
+}
+.big-text h1{
+    font-size: 7vw;
+    text-align: center;
+}
+.smaller-text h3{
+    font-size: 1.6vw;
+    text-align: center;
+}
+.avatars-rating{
+    display: flex;
+    gap:2vw;
+    align-items: center;
+}
+.avatars{
+    --avatar-size:60px;
+    --avatar-count:6;
+    --column-size:calc(var(--avatar-size)/1.5);
+    display: grid;
+    grid-template-columns: repeat(var(--avatar-count),var(--column-size));
+}
+.avatar{
+    width: var(--avatar-size);
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: .25rem .25rem .5rem rgba(0, 0, 0, 0.2);
+    transition:transform 0.3s ease;
+}
+.avatar:nth-child(odd){
+    transform: rotate(-5deg);
+}
+.avatar:nth-child(even){
+    transform: rotate(5deg);
+}
+.avatars:hover .avatar{
+    
+    transform: rotate(2deg);
+}
+.avatar:hover{
+    scale: 1.1;
+    z-index: 2;
+}
+.rating{
+    display: flex;
+    gap: 5px;
+}
+.ri-star-fill{
+    color: yellow;
+    
+}
+button{
+    transition-duration: 0.2s;
+}
+button:hover{ 
+    cursor:pointer;
+    /* scale:1.1; */
+    transform: translate(0,-4px);
+}
+.hero button{
+    background-color: rgb(52, 177, 217);
+     padding:9px 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 520; 
+    height: 3vw;
+    width: 10vw;
+
+}
+

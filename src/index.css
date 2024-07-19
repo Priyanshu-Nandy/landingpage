@@ -1,0 +1,24 @@
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+background-color:#08090A;
+color: white;
+}
+html,body{
+height: 100%;
+width: 100%;
+
+}
+#root{
+height: 100%;
+width: 100%;
+
+padding-left: 4.5%;
+padding-right: 4.5%;
+}
+.full-page{
+    height: 100vh;
+    width: 100%;
+}
+

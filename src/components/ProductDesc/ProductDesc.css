@@ -1,0 +1,35 @@
+.productdesc{    
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 30px;
+}
+.text-desc{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.productdesc h3{
+    font-size: 50px;
+    text-align: center;
+}
+.productdesc h5{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.card-size{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* display: grid; */
+    /* grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    align-items: center;
+    */
+    gap: 10px;
+}
